@@ -1,23 +1,3 @@
-//drive function returns a promise
-// const drive = (age) =>
-//   new Promise((response, reject) => {
-//     if (age >= 18) {
-//       response("eligible to drive");
-//     } else {
-//       reject("not eligible to drive");
-//     }
-//   });
-
-// async function mes() {
-//   try {
-//     const check = await drive(10);
-//     console.log(check);
-//   } catch (err) {
-//     console.log(err);
-//   }
-// }
-// mes();
-
 //task-1 use async await to display data for europes countries who speak spanish language
 async function fetchData() {
   try {
